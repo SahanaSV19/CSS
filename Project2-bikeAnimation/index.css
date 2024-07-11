@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+
+    height: 695px;
+    width: 100%;
+    background-image: url('bgimage.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.bgImageContainer {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.bikeImage {
+    height: 200px;
+
+    position: absolute;
+    /* left: 0px; */
+    animation: bikeMotion 5s ease 0s alternate;
+    transition: all 1s ease-out;
+}
+
+@keyframes bikeMotion {
+    0% {
+        left: 0px;
+    }
+
+    30% {
+        left: 900px;
+    }
+
+    50% {
+        left: 1000px;
+
+    }
+
+    100% {
+        /* left: 1000px; */
+        transform: rotateY(180deg);
+        left: 10px;
+    }
+
+}
