@@ -1,0 +1,82 @@
+*{
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(74, 10, 184);
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 6px;
+    /* to remove style i.e., disc,circle,square for list items */
+    position: relative;
+    top: -15px;
+    background-color: black;
+}
+
+i{
+    position: relative;
+    left: 470px;
+    bottom: 20%;
+    background-color: black;
+    height: 10px;
+}
+a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+nav{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    transition: all 1s linear;
+    position: relative;
+}
+#demo1 a{
+    position:absolute;
+    left: 55%;
+}
+#demo2 a{
+    position:absolute;
+    left:65%;
+}
+#demo3 a{
+    position:absolute;
+    left:75%;
+}
+#demo4 a{
+    position:absolute;
+    left:85%;
+}
+header nav{
+    position:sticky;
+    top: 0;
+}
+#demo1 a:hover{
+    color: aqua;
+    cursor: pointer;
+    transform: rotate(330deg);
+}
+#demo2 a:hover{
+    color: aqua;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+#demo3 a:hover{
+    color: aqua;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+#demo4 a:hover{
+    color: aqua;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+body{
+    height: 120vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/21/22/48/bmw-1344713_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

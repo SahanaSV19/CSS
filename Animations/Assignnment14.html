@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+           }
+           .hero{
+            height: 100vh;
+            width: 100%;
+            background-image: url("https://cdn.pixabay.com/photo/2014/11/16/15/15/field-533541_1280.jpg");
+            background-size: cover;
+            background-position: center;
+            position:relative;
+            overflow-x: hidden;
+           }
+           .highway{
+            height: 130px;
+            width: 500%;
+            display: block;
+            background-image: url("./roadmain2.jpg");
+            background-repeat: repeat-x;           
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            animation: highway 5s linear infinite;
+           }
+           @keyframes highway{
+            100%{
+                transform:translateX(-3400px);
+            }
+           }
+           .bike{
+            width: 400px;
+            left: 20%;
+            bottom: 50px;
+            transform: translateX(-50%);
+            position: absolute;
+            z-index: 2;
+           }
+           .bike img{
+            width: 100%;
+           }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="highway"></div>
+        <div class="bike">
+            <img src="./bikemainmain.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

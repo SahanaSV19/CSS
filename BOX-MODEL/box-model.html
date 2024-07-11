@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        h1{
+            height: 200px;
+            width: 200px;
+            border-width: 35px;
+            border-style: dotted;
+            border-color: aquamarine;
+            border: 35px dotted aquamarine;
+            border-top-width: 35px;
+            border-top-style: dashed;
+            border-top-color: aqua;
+            border-top: 35px dashed aqua;
+            border-right-width: 35px;
+            border-right-style: double;
+            border-right-color: blue;
+            border-right: 35px double blue;
+            border-bottom-width: 35px;
+            border-bottom-style: groove;
+            border-bottom-color: green;
+            border-bottom: 35px groove green;
+            border-left-width: 35px;
+            border-left-style: inset;
+            border-left-color: yellow;
+            border-left: 35px inset yellow;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20%;
+            border-bottom-left-radius: 20%;
+            padding: 1px 1px 1px 1px;
+            margin: 250px 270px 250px 270px;
+
+
+        }
+        #demo{
+            color: blueviolet;
+        }
+        .test{
+            color: burlywood !important;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="demo" class="test">Hi</h1>
+</body>
+</html>
+
+<!-- In Box-Model we have 4 types i.e., Content, padding, border,margin. Content is used to style content, Border properties are mentioned above in internal CSS ,padding is used to give space around the content,Margin is used to provide space around border or move the border with content right,left,top,bottom.Margin and padding are transparent hence u cannot give color attribute to it -->

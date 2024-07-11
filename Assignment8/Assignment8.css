@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 1000px;
+    width: 1000px;
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+pre{
+    height: 800px;
+    width: 800px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    height: 600px;
+    width: 600px;
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#childd{
+    height: 400px;
+    width: 400px;
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#child{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

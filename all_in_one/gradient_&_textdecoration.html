@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient and text decoration</title>
+    <style>
+        aside{
+            height: 550px;
+            width: 800px;
+            color: rgb(163, 252, 222);
+            border: 2px solid black;
+            margin-top: 100px;
+            background-image: linear-gradient(200deg,brown 20px,yellow 200px,green 80%);
+            /* the (first value u can give in terms deg or position like - to left,right,bottom,top,top-right,top-left,bottom-right,bottom-left) and u can give n number of colors  */
+            background-image: repeating-linear-gradient(to top right,rgb(136, 214, 242) 10px,rgb(251, 94, 66) 30px,rgb(234, 69, 119) 90px );
+            font-size: 19px;
+            background-image: radial-gradient(red 60px,yellow 90px, green 130px,blue 240px);
+            background-image: repeating-radial-gradient(rgb(237, 11, 184) 30px,yellow 50px);
+            background-image: conic-gradient(yellow,black,orange,pink,red,blue);
+            background-image: repeating-conic-gradient(rgb(63, 53, 253) 0.30deg, rgb(38, 178, 213) 0.39deg);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            /* u can give values as left right center and justify as ur requirement for text align */
+            margin-right: 40px;
+            white-space: wrap;
+            /* white space lets u display the content in wrapped form or nowrap form*/ 
+        }
+        aside::first-letter{
+            color: crimson;
+            font-size: 40px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            position: relative;
+            left: 500px;
+            font-size: 35px;
+            text-shadow: 5px 5px 10px blue;
+            /* 1st value is for x-axis 2nd value is for y-axis & 3rd value is for blurness and 4th value for color */
+            text-transform: capitalize;
+            /* the values can be to (caplitalize 1st letter of words), (uppercase),(lowercase) */
+            text-decoration: 5px dotted rgb(18, 212, 105) underline;
+            /* 1st value is for thickness and 2nd value is dashed or dotted,double,solid 3rd value is color 4th value is underline or any ther values  */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to css</h1>
+    <aside>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptas incidunt exercitationem beatae repudiandae eos harum quae amet. Quod harum sequi accusamus consectetur eligendi est voluptate mollitia illum ratione pariatur, voluptates quia velit fugit quisquam in non quibusdam magni, odit sit consequuntur. Non quis consequatur voluptatum dolorum quo, ab, expedita adipisci culpa enim repellat alias vel tempora, sit veniam vitae omnis deserunt. Aliquam nobis quisquam cum iusto nostrum veritatis ab corporis, dicta quos eaque nisi odit numquam sapiente tempora explicabo est repudiandae magni repellat! Quo impedit, optio laboriosam tempora veritatis aut corporis. Eos illum corporis illo. Repudiandae, impedit. Laborum aspernatur iure exercitationem odit necessitatibus vero facilis, asperiores alias blanditiis officia dolore aut corporis saepe beatae! Perspiciatis sed eum magni, pariatur beatae quaerat labore enim explicabo velit iste perferendis? Aliquid voluptatum, quis magnam minus temporibus veritatis qui voluptatibus, corrupti quidem ab esse consequatur tempora inventore rerum repudiandae quia quo consectetur blanditiis? Nobis accusamus inventore ullam, neque expedita beatae, cum obcaecati exercitationem, est illo nisi? Eius labore, esse adipisci deleniti tenetur dicta ad consequuntur. Ratione laboriosam temporibus pariatur consequatur vel, unde perferendis facilis, repudiandae dignissimos eligendi doloribus minus debitis veniam aliquid, quidem animi ipsum? Amet ab quia voluptate nostrum beatae perferendis minima!
+    </aside>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#grid-container{
+    height: 100vh;
+    width: 80vw;
+   background-image: url("https://all-czech.com/wp-content/gallery/prague-region/654.jpg");
+   background-repeat: no-repeat;
+    background-size: 100% 100vh;
+   border: 5px solid red;
+    display: grid;
+    grid-template-columns: 100px 100px 100px auto;
+    grid-template-rows:  200px 100px;
+    /* u can give values in %,px,auto,vw,fr=fraction of grid container */
+    row-gap: 20px;
+    column-gap: 40px;
+    gap: 30px;
+    /* grid-auto-rows: 100px;
+    justify-content: space-evenly;
+    align-items: baseline; */
+    /* grid-template-areas: "hd hd hd hd"
+                         "mn sd sd sd"
+                         "mn sd sd sd"
+                         "ft ft ft ft"; */
+
+    /* here hd means header mn means main sd means section ft meas footer */
+    
+}
+.grid-items{
+    border: 5px solid blue;
+    background-color: yellow;
+    
+}
+#items1{
+    /* grid-area: hd; */
+}
+#items2{
+    /* grid-area: mn; */
+   background-image: url("https://cdn.pixabay.com/photo/2023/06/15/02/38/fauna-8064270_640.jpg");
+   background-size: 100vh 100%;
+   background-repeat: no-repeat;
+   grid-column-start:1;
+   grid-column-end:5;
+   grid-row-start:2;
+   grid-row-end:5;    
+}
+#items3{
+    /* grid-area: sd; */
+    grid-column-start:1;
+    grid-column-end:4;
+}
+#items6{
+    grid-column-start: 4;
+    grid-column-end:5;
+    grid-row-start: 2;
+    grid-row-end:5;
+    outline: none;
+    overflow-y:scroll;
+}
+#items4{
+    /* grid-area: ft; */
+}
+#items1{
+    justify-self:center;
+    align-self:center;
+    place-self:center;
+}

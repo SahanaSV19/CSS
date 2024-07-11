@@ -1,0 +1,33 @@
+#demo{
+    color: aquamarine;
+    background-color: black;
+}
+body{
+    background-color: springgreen;
+}
+.test{
+    color: crimson;
+}
+section{
+    color: bisque;
+    background-color: coral;
+}
+p,h3,pre{
+    color: cyan;
+    background-color: burlywood;
+}
+#head one{
+    color: darkblue;
+}
+.para{
+    color: lavender;
+}
+
+*{
+    color: fuchsia;
+    background-color: honeydew;
+}
+#dog{
+    color: coral;
+    background-color: darkkhaki;
+}

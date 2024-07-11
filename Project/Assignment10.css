@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    left: -100px;
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 1600px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}
+.dropdown:hover .dropbtn{
+    background-color: aquamarine;
+    transition: all 3s linear;
+}
+nav{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    transition: all 1s linear;
+    position: relative;
+}
+header nav{
+    position:sticky;
+    top: 0;
+}
+.demo2{
+    color: rgb(16, 203, 32);
+    left: 400px;
+    font-size: 40px;
+    position:absolute;
+    top: 30px;
+    bottom:900px;
+
+}
+.demo6{
+    color: rgb(19, 170, 142);
+    left: 400px;
+    font-size: 30px;
+    position:absolute;
+    top: 70px;
+    bottom:900px;
+}
+body{
+    
+    /* background-image: linear-gradient(rgba(0,0,0,0.6),transparent),url("/images2/1.jpg"); */
+    height: 100vh;
+    width: 100px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/05/17/51/maltese-1123016_640.jpg");
+    background-repeat: no-repeat;
+    background-size:1500px 100vh;
+    background-color:white;
+    /* background-position: 100px 100vh; */
+    padding: 0 8%;
+    position: relative;
+    /* top: 50px; */
+}
+.demo{
+    position: relative;
+    top:-100px;
+}
+.demo1 img{
+    position: relative;
+    top: -80px;
+    left: 350px;
+    border: 1px solid black;
+}
+/* .demo2 i{
+    height: 20px;
+    width: 20px;
+} */
+.demo3{
+    position: absolute;
+    left:200px;
+    border-radius: 5%;
+    border:5px solid wheat;
+    width:1000px;
+}
+#test1{
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+}
+#test2{
+    font-size: 20px;
+    position: relative;
+    left: 90px;
+}
+.demo5 a{
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid black;
+    height: 35vh;
+    width: 35px;
+    position: sticky;
+    top:900px;
+
+}
+.demo5 a:hover{
+    background-color: rgb(14, 14, 157);
+    transition: all 1s linear;
+    
+}
+.demo7 pre{
+    font-size: 20px;
+    color: darkgreen;
+    position: relative;
+    top:500px;
+    
+}
+.demo7 pre::first-letter{
+    color: crimson;
+    font-size: 40px;
+}
+.demo7 pre::selection{
+    color: white;
+    background-color: coral;
+}
+.demo8{
+    position: relative;
+    top: 100px;
+}
+.demo9{
+    background-color: black;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 260px;
+    left: 500px;
+    
+}
+.demo10{
+    color:black;
+    width: 800px;
+    position: absolute;
+    left: -300px;
+    border: 1px solid crimson;
+}

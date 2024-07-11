@@ -1,0 +1,64 @@
+div h4{
+    color: aqua;
+}
+div>h3{
+    color: greenyellow;
+}
+/* Important always remember display:flex,justify-content:center or any other values, align-items used to align the items */
+h1{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    color: yellow;
+    display: flex;
+    /* display flex is used to display content in horizintal way if the data or boxes are displayed in vertical way */
+    justify-content: center;
+    align-items: center;
+}
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: black ;
+    color: deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(18, 173, 25) ;
+    color: rgb(219, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(191, 235, 29) ;
+    color: rgb(105, 97, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child4{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(250, 40, 243) ;
+    color: rgb(27, 181, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div+p{
+    color: red;
+}
+/* + targets only one adjacent and below parent element */
+
+div~p{
+    color: red;
+}
+/* targets all the elements below parent element */

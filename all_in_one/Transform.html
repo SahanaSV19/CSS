@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        section{
+            height: 300px;
+            width: 500px;
+            border: 2px solid black;
+            background-image: linear-gradient(red, yellow);
+            transition: all 2s linear 0.5s;
+            /* The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay. */
+        }
+        section:hover{
+            background-image: linear-gradient(blue,green);
+            transform: rotate(360deg);
+            transform: rotateX(180deg);
+            transform: rotatey(90deg);
+            transform: scaleX(0.5);
+            transform: scaleY(2);
+            transform: scale(2,0.5);
+            transform: skewX(360deg);
+            transform: skewY(180deg);
+            transform: skew(360deg,360deg);
+            transform: translateX(400px);
+            transform: translateY(180px);
+            transform: translate(600px,400px);
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <section>
+
+        </section>
+    </div>
+</body>
+</html>

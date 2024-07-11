@@ -1,0 +1,37 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./Coffeemug.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+h1::first-letter{
+    color: darkblue;
+}
+
+
+h1::first-line{
+    color: aqua;
+}
+
+h1::after{
+    content:"Thank You";
+    color:hotpink;
+}
+
+h2::before{
+
+    content:"Good Morning   ";
+    color:blueviolet;
+}
+
+h1::marker{
+    color: cornflowerblue;
+}
+
+h1::selection{
+    color: crimson;
+    background-color: aquamarine;
+}

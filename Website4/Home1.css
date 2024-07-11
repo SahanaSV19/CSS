@@ -1,0 +1,58 @@
+.navbar{
+    position: fixed;
+    height: 50px;
+    z-index: 2;
+
+}
+#hello1{
+    font-size: 60px;
+    text-shadow: 10px 10px 5px black;
+    color: white;
+    position: fixed;
+    left: 40px;
+    top: 5pxpx;
+    z-index: 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hello2{
+    position: absolute;
+    left: 330px;
+    top: -8px;
+    font-size: 20px;
+}
+#hello3{
+    position: absolute;
+    left: 450px;
+    top: -8px;
+    font-size: 20px;
+}
+#hello4{
+    position: absolute;
+    left: 550px;
+    top: -8px;
+    font-size: 20px;
+}
+#hogamma{
+    position: absolute;
+    left: 650px;
+    top: -8px;
+    font-size: 20px;
+
+}
+#hello5{
+    position: absolute;
+    left: 1450px;
+    top: -8px;
+    font-size: 20px;
+}
+.carousel-inner{
+    position: absolute;
+    padding-left: 380px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+#rama{
+    position: relative;
+    top: 600px;
+    display: flex;
+}

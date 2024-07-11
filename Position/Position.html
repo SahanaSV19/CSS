@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        div{
+            height: 80vh;
+            width: 800px;
+            background-color: black;
+            border: 10px solid red;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            /* parent should be related to child hence position relative is given */
+        }
+        #item1{
+            height: 100px;
+            width: 100px;
+            border:10px dotted green;
+            background-color: aqua;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position:relative;
+            top: 30px;
+            z-index: 14;
+            /* default position is static  */
+            /* z-index is provided to display the content or element  having highest index value in z-direction */
+
+        }
+        #item2{
+            height: 100px;
+            width: 100px;
+            border:10px inset rgb(98, 0, 128);
+            background-color: rgb(21, 255, 0);
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 100px;
+            /* z-index: 12; */
+            /* relative elements moves from its original position coordinates */
+        }
+        #item3{
+            height: 100px;
+            width: 100px;
+            border:10px outset rgb(128, 0, 85) ;
+            background-color: rgb(234, 255, 0);
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            /* top: 20px;
+            z-index: 10; */
+            /* absolute position is moves based on parent elements position */
+        }
+        #item4{
+            height: 100px;
+            width: 100px;
+            border:10px dashed rgb(85, 128, 0);
+            background-color:rgb(0, 85, 255) ;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            /* top: 30px;
+            z-index: 16; */
+        }
+    
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="item1">mobile1</h1>
+        <h1 id="item2">mobile2</h1>
+        <h1 id="item3">mobile3</h1>
+        <h1 id="item4">mobile4</h1>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit dignissimos asperiores deserunt repellat eveniet, veritatis magnam rem nesciunt cumque id harum omnis doloribus excepturi laudantium impedit molestiae recusandae labore, consequatur eligendi et dolor, atque velit repudiandae quos. Porro vitae perspiciatis illo adipisci quae nobis laboriosam. Sint nisi quas esse magni itaque ipsa ullam quaerat architecto. Ab cupiditate deleniti accusantium ex corrupti. Doloremque vel aut dolorum a beatae laboriosam hic facere, facilis numquam eaque, architecto obcaecati fugit! Non unde excepturi laboriosam. Deserunt, veritatis. Similique nostrum repellat beatae corporis, non porro recusandae. Repellat sapiente eos officiis maxime maiores quas quod non, nesciunt quam labore aspernatur ipsum eius tempore recusandae inventore ab atque corporis odit sed aliquid hic reiciendis voluptatum incidunt dolorem! Quo, sapiente culpa molestias eius maiores distinctio nemo perspiciatis atque dolor error eaque nesciunt ex sunt earum, ea odio aut, corrupti porro? Tempore velit, quos, eius voluptatem facere suscipit voluptatum beatae eos dolorum incidunt at quia nostrum dolores quasi nam neque ad labore odit accusantium eum aliquam amet. Suscipit neque laborum id dicta expedita beatae vel nostrum deserunt, molestias quis sed commodi rem exercitationem sapiente. Quis facere blanditiis possimus aspernatur? Nam repellat minima consectetur non ipsa sequi, corrupti delectus veniam voluptates sed, vel quasi esse quibusdam doloremque deserunt eligendi quas laboriosam animi error eveniet iusto facere mollitia corporis! Incidunt molestiae consequatur, tenetur sunt temporibus possimus animi quia fuga, tempora iusto, ut iste sequi libero eos voluptate molestias quis quasi soluta ex repudiandae odio ab. Minus, deserunt! Sequi, quae voluptates deleniti deserunt sapiente error quaerat porro commodi debitis. Voluptatum consectetur unde sapiente ratione beatae! Rem quae doloremque perferendis nesciunt iste sint asperiores et, maiores velit? Odio nulla repudiandae quam, libero, ut ad nobis id vitae nam sunt eum, dolor dolore? Facilis autem vel enim dolorum necessitatibus incidunt quod unde eligendi dignissimos commodi maiores dicta laudantium libero omnis consequatur eos, animi error illo. Dicta ipsa sapiente nobis sequi quia, dolor quod itaque odit nihil facilis expedita repellendus quam quidem obcaecati repudiandae deleniti maiores ad eius molestiae libero ipsam nulla. Suscipit praesentium voluptates deleniti reiciendis ipsa, animi facilis fuga provident sint quia quas, quo minima ratione labore ipsum est! Necessitatibus veniam, quidem nesciunt libero quia placeat dolorem soluta dolores similique nulla architecto eveniet doloribus qui aliquam assumenda? Molestias quae ad ratione ipsam. Enim placeat tempore nemo! Iste nemo nostrum omnis. Illo sint culpa esse reprehenderit recusandae repudiandae enim quibusdam quas, commodi cumque rerum voluptatum alias facilis consequatur blanditiis, doloremque iure facere odio molestiae! Non deserunt nam nemo asperiores harum placeat at odio vel! Commodi laboriosam ullam id eius vitae non atque perferendis expedita eaque! Recusandae cupiditate odit, enim voluptatibus deserunt nihil necessitatibus ex tenetur possimus atque nemo blanditiis dolor nulla expedita minima optio. Laborum dolores maiores ipsam facilis cumque similique aliquam amet quia voluptatem qui voluptatibus deserunt at dolorum totam harum deleniti culpa officia vero soluta assumenda, accusamus quos quae voluptates! Praesentium explicabo animi veniam, debitis nostrum vero id ipsa molestias laboriosam blanditiis impedit aliquid! Doloribus eveniet aperiam dolor voluptatibus dolore maxime ipsa sint quasi ad vero eos corrupti odio atque, dolorem delectus sunt explicabo alias autem et. Minus, veniam nam repellendus earum mollitia suscipit cupiditate culpa, quis commodi reprehenderit corporis iste eos ab? Incidunt adipisci nisi asperiores quis, hic minima magnam accusantium unde. Ea porro dolor tenetur consequuntur eligendi exercitationem ullam cum iste quam at. Ratione numquam eligendi facilis, perspiciatis itaque odit deserunt a cum eum est pariatur culpa tempore, commodi praesentium? Culpa ullam deleniti alias odit non. Quasi fugit alias aliquid et rerum incidunt voluptatum culpa, enim eum praesentium beatae iusto quisquam tempora neque numquam tenetur autem fugiat labore at illo sequi voluptate optio? Exercitationem praesentium iste, inventore eveniet sequi quaerat excepturi placeat fuga neque asperiores minus quam. Pariatur enim sapiente exercitationem illo explicabo cumque culpa perferendis? Corrupti assumenda minima alias perferendis ex quisquam. In architecto facilis perspiciatis adipisci culpa, dolores veniam magni rerum dignissimos eligendi amet distinctio impedit quisquam deserunt ipsam pariatur, dolore eius obcaecati, repudiandae dolorem ad? Soluta natus veniam voluptate illum incidunt. Odio hic velit qui expedita at, quasi molestias suscipit eius! Soluta optio tenetur, iusto doloribus ut voluptas? Tenetur adipisci accusantium esse? Possimus veritatis ea ullam ab at inventore impedit doloribus illo! Suscipit voluptates voluptate, neque dolorem, sequi, exercitationem veniam aliquam consequuntur sunt facilis aliquid obcaecati aperiam! Exercitationem porro doloremque perferendis quae aliquid quo sit, aliquam dicta dolor, possimus saepe amet quaerat repellat nemo quos, ad praesentium nihil? Enim, molestias blanditiis magni illo suscipit quae voluptas eaque exercitationem quis quia tempore porro perferendis quo? Esse voluptatibus debitis obcaecati laudantium quas dicta, repellat illo nesciunt laborum, ratione nulla consectetur soluta sed saepe rerum sunt distinctio praesentium ipsam commodi! Sunt mollitia, perferendis ipsam placeat libero repudiandae molestias ex sit veniam animi, minus cupiditate saepe unde ullam sapiente praesentium rerum in corrupti? Asperiores debitis tenetur sunt, ratione architecto cum. Nam nemo quos ipsam magnam et, ducimus aut dignissimos earum eligendi error. Cum, facilis. Natus et cum ipsam fugiat magnam voluptate omnis, possimus quis enim necessitatibus! Facilis veniam, distinctio voluptate necessitatibus dolor neque minima. Assumenda quas voluptate praesentium amet corporis, excepturi, ex nostrum dignissimos hic recusandae, quaerat tempore aliquam repellat? Inventore ratione cupiditate maxime. Itaque eos iste eligendi animi quas iure molestiae! Sit aliquid voluptas similique cupiditate sed tempore natus porro deserunt sapiente nulla, adipisci quasi molestias, perspiciatis officia aperiam sequi aliquam? Illo quos blanditiis fugiat perferendis quas dolorum modi nobis, nulla quo sit voluptatibus eos, quia libero neque explicabo quod cum. Eveniet pariatur temporibus error suscipit ipsam sequi eius asperiores porro quas molestias blanditiis, dolor deserunt illum explicabo distinctio praesentium culpa incidunt officiis labore consequatur! Nemo veniam doloribus nihil exercitationem deserunt, ex omnis deleniti sequi, velit eligendi, voluptas voluptatem! Deserunt blanditiis accusantium doloribus! Pariatur eos facilis placeat repellendus. Nobis odit maiores obcaecati veritatis! Porro explicabo architecto obcaecati quo, facilis odit sit laudantium fuga vel consequuntur, quod at sunt asperiores tempore nemo ad. Dicta perspiciatis tenetur ducimus vel, recusandae saepe sapiente molestiae atque repellat aspernatur repudiandae necessitatibus doloremque cumque dolores, tempore officia quod iure hic autem, eius doloribus animi enim sequi. Et?</h1>
+</body>
+</html>

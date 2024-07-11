@@ -1,0 +1,507 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+.dropbtn {
+    padding: 5px;
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif , sans-serif;
+    position: absolute;
+    border: none;
+    left: 25px;
+    top:-26.6px;
+    background-color: white;
+}
+.dropdown {
+    position: relative;
+    display:inline-block;
+}
+.dropdown li .dropbtn i{
+    position: relative;
+    top: 20px;
+    height: 18px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 50px;
+    padding: 10px;
+    z-index: 1;
+}
+.hello li{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.hello:hover #hi1{
+    background-color: white;
+    transition: all 3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello:hover #hi2{
+    background-color: white;
+    transition: all 3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello:hover #hi3{
+    background-color: white;
+    transition: all 3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello:hover #hi4{
+    background-color: white;
+    transition: all 3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello:hover #hi5{
+    background-color: white;
+    transition: all 3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello:hover #hi6{
+    background-color: white;
+    transition: all 3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hello:hover #hi7{
+    background-color: white;
+    transition: all 3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-content li {
+    color: black;
+    padding: 1px 1px;
+    margin: 4px;
+    text-decoration: none;
+    display: block;
+    
+    justify-content: center;
+    align-items: center;
+  }
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+    
+}
+.dropdown:hover .dropbtn{
+    background-color: white;
+    border: 1px solid black;
+    transition: all 3s linear;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    font-size: 20px;
+}
+#demo1{
+    position: absolute;
+    left: 50px;
+    bottom: 750px;
+}
+#demo2{
+    position: absolute;
+    left: 1000px;
+    bottom: 750px;
+}
+#demo3{
+    position: absolute;
+    left: 1200px;
+    bottom: 750px;
+    font-size: 20px;
+
+}
+#container{
+    height:800px;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2021/02/10/17/06/house-6002810_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    filter: brightness(90%);
+    filter: contrast(100%);
+    /* filter: hue-rotate(250deg); */
+}
+.subcontainer{
+    position:relative;
+    display: flex;
+    justify-content: center;
+}
+.subcontainer #test1{
+    position:absolute;
+    bottom: 580px;
+    color: white;
+    font-size: 30px;
+}
+.subcontainer #test2{
+    position:absolute;
+    bottom: 550px;
+    color: white;
+    font-size: 25px;
+}
+.subcontainer #test3{
+    position:absolute;
+    bottom: 520px;
+    color: white;
+    font-size: 25px;
+}
+.subcontainer #test4{
+    position:absolute;
+    bottom: 400px;
+    color: white;
+    font-size: 100px;
+}
+
+.subcontainer #test4:hover{
+    color: rgb(78, 131, 254);
+    transition: all 1s linear;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace, Times, sans-serif;
+}
+.container2{
+    position:relative;
+    top:900px;
+}
+.container4{
+    position: relative;
+
+}
+.subcontainer5{
+position: relative;
+height: 300px;
+width: 350px;
+left: 40px;
+top: -30px;
+}
+.subcontainer3{
+    height: 410px;
+    width: 425px;
+    border: 1px solid rgba(255, 225, 0,1.0);
+    position: absolute;
+    top: -35px;
+    left: 1000px;
+    background-color: rgba(255, 225, 0,1.0);
+}
+.container3{
+    height: 300px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    z-index: 6;
+    left: 70px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+#subcontainer2{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 950px;
+    top: 30px;
+}
+#subcontainer4{
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    left: 50px;
+    top: 390px;
+}
+.container3 h1::first-letter{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+#haha{
+    position: absolute;
+    font-family: cursive,sans-serif;
+    top: 250px;
+}
+#hoho{
+    position: absolute;
+    top: 120px;
+    font-size: 15px;
+}
+.container5{
+    position: relative; 
+    height: 80px;
+    width: 200px;
+}
+#hehe{
+    position: absolute;
+    top: 350px;
+    z-index: 4;
+    left: 40px;
+}
+.haha2{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 310px;
+    border: 1px solid rgba(255, 225, 0,1.0);
+    background-color: rgba(255, 225, 0,1.0);
+    left: 30px;
+}
+#hehe2{
+    height: 150px;
+    width: 400px;
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 320px;
+    top: 300px;
+}
+#haha3{
+    position: absolute;
+    top: 480px;
+    left: 450px;
+    font-size: 12px;
+    font-family: cursive,sans-serif;
+}
+.container2{
+    position: relative;
+    top: 500px;
+    height: 500px;
+    width: 100%;
+    border: 1px solid rgba(255, 225, 0,1.0);
+    background-color:rgba(255, 225, 0,1.0);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.container6{
+    position: relative;
+    top: -10px;
+    font-size: 20px;
+}
+.container7{
+    position: relative;
+    font-family: cursive,sans-serif;
+    padding: 2px;
+    top: -20px;
+}
+#hehe3{
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#img4{
+    position: relative;
+    left: 40px;
+}
+#imgg4{
+    position: relative;
+    left: 40px;
+}
+#imggg4{
+    position: relative;
+    left: 40px;
+}
+.container8{
+    position: relative; 
+    height: 320px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: white;
+    top: 650px;
+    left: 860px;
+    z-index: 8;
+}
+#haha4{
+    position: absolute;
+    font-size: 50px;
+}
+#haha5{
+    position: absolute;
+    top: 200px;
+    font-size: 15px;
+}
+.haha6{
+    height: 320px;
+    width: 450px;
+    position: absolute;
+    top: 1500px;
+    border: 1px solid rgba(255, 225, 0,1.0);
+    background-color: rgba(255, 225, 0,1.0);
+    left: 130px;
+}
+#hehe4{
+    height: 320px;
+    width: 450px;
+    position: absolute;
+    top: 1550px;
+    left: 180px;
+}
+#hehe5{
+    height: 250px;
+    width: 430px;
+    position: absolute;
+    top: 1650px;
+    left: 880px;
+}
+.container9{
+    height: 830px;
+    width: 100%;
+    border: 1px solid rgb(219, 215, 215);
+    background-color: rgb(219, 215, 215);
+    position: relative;
+    top: 800px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+#haho{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    top: 170px;
+    left: 40px;
+}
+#haho1{
+    height: 570px;
+    width: 350px;
+    position: absolute;
+    top: 170px;
+    left: 500px;
+}
+#haho2{
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    top: 490px;
+    left: 40px;
+}
+#haho3{
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    border: 1px solid yellow;
+}
+.hahe{
+    position: absolute;
+    top: 50px;
+    width: 500px;
+}
+.hahe::first-letter{
+    color: crimson;
+}
+.hahe1{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    font-size: 20px;
+    font-family: cursive,sans-serif;
+    color: rgba(202, 17, 82, 0.9);
+}
+
+.hahe2{
+    position: absolute;
+    top: 670px;
+    left: 1000px;
+    font-size: 20px;
+    font-family: cursive,sans-serif;
+    color: crimson;
+}
+.container10{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    border: 1px solid rgb(237, 235, 235);
+    background-color: rgb(237, 235, 235);
+    top: 800px;
+    display: flex;
+    justify-content: center;
+}
+#hahe3{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    z-index: 9;
+    filter: brightness(100%);
+    filter: hue-rotate(240deg);
+}
+#hahe4{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+    z-index: 10;
+}
+.hahe5{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    border: 1px solid rgba(255, 225, 0,1.0);
+    background-color: rgba(255, 225, 0,1.0);
+    top: 200px;
+    left: 750px;
+}
+.container11{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    padding: 25px;
+}
+#hahe6{
+    position: absolute;
+    top: -180px;
+    font-size: 40px;
+}
+#hahe7{
+    position: absolute;
+    top: -60px;
+    font-size: 20px;
+}
+.hahe8{
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    color:rgb(106, 241, 196);
+}
+#demo8{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+#demo9{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+table{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}

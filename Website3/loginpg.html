@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("https://cdn.pixabay.com/photo/2023/06/02/14/12/woman-8035772_640.jpg");
+            filter: blur(0px);
+            background-repeat: no-repeat;
+            background-size: 100% 100vh;
+            color: black;
+            font-size: 25px;
+            position: relative;
+        }
+        div{
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            line-height: 4px;
+            font-weight: bolder;
+        }
+        input{
+            padding: 5px;
+        }
+        h1{
+            position: absolute;
+            top: 330px;
+            font-size: 25px;
+            left: 290px;
+        }
+        h2{
+            position: absolute;
+            top: 370px;
+            font-size: 25px;
+            left: 290px;
+        }
+        #hello{
+            position: absolute;
+            left: 210px;
+            top: 80px;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+        #hi{
+            position: absolute;
+            left: 140px;
+            top: 80px;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #hi,#hello:hover{
+            border: 2px solid grey;
+            cursor: pointer;
+        }
+    </style>
+    <title>Login page</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td><label for="">Username</label></td>
+                <td><input type="text" placeholder="Username"></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Login" id="hi"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Reset" id="hello"></td>
+            </tr>
+        </table>
+    </div>
+    <h1><a href="">Forgot password?</a></h1>
+    <h2><a href="">Create new account?</a></h2>
+</body>
+</html>

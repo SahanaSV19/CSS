@@ -1,0 +1,20 @@
+body{
+    background-image: url("./elephant.jpg");
+    background-repeat: no-repeat;
+    /* if u dont want to repeat the picture just give no-repeat or u can give repeat-x or repeat-y */
+    background-size: 100% 100vh;
+    /* 100% refers to width or x-axis coordinates and 100vh refers to 100view height or y-axis coordinates  */
+    /* if u giv background size as auto the its default size it takes */
+    background-position: 20px 300px;
+    /* 20px refers to x-axis and 300px refers to y-axis */
+    background-attachment: fixed;
+    /* if u want the image to be fixed and only the content to scroll just type background-attachment-fixed or background attachment- scroll*/
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    background-image: url("https://cdn.pixabay.com/photo/2023/05/06/07/00/plant-7973722__340.jpg");
+    background-repeat: no-repeat;
+}
+/* for div or any other element u got to specify height and width except for body element*/

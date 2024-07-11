@@ -1,0 +1,39 @@
+#flex-container{
+    height: 100vh;
+    width: 70%;
+    background-color: black;
+    border: 20px solid yellow;
+    display: flex;
+    flex-direction: row;
+    /* u can give values like row,column,row reverse,column reverse */
+    flex-wrap:no-wrap ;
+    /* u can give value like wrap,nowrap,wrap-reverse*/
+}
+.flex-items{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 5px solid aqua;
+    flex-basis: 2;
+
+}
+#items1{
+    order: 1;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 20%;
+    align-self: flex-end;
+}
+#items2{
+    order: 2;
+    flex-grow: 2;
+    flex-shrink: 2;
+    align-self: last baseline;
+}
+#items5{
+    order: 6;
+    flex-grow: 3;
+    flex-shrink: 3;
+    align-self: center;
+}
+/* to inspect a webpage ctrl+shift+j */

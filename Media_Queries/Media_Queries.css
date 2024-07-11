@@ -1,0 +1,48 @@
+body{
+    /* background-color: green; */
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 2rem;
+    /* 1rem is 16 px */
+    width: 100%;
+    /* background-color: black; */
+    color: palegreen;
+}
+@media(width<=400px)
+{
+    nav{
+        flex-direction: column;
+        font-size: 50px;
+        height: 15rem;
+        background-color: red;
+    }
+}
+@media(200px<=width<=400px)
+{
+    nav{
+        background-color: yellow;
+    }
+}
+@media screen and (width<=900px){
+    nav{
+        background-color: pink;
+        border: 5px solid black;
+    }
+}
+@media (orientation:portrait){
+    nav{
+        background-color: orchid;
+        
+    }
+}
+@media (orientation:landscape){
+    nav{
+        background-color: purple;
+        
+    }
+}

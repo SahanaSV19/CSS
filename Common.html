@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #container #box1 h1:first-child */
+        /* #container #box2 p:first-child */
+        /* #container p:first-child */
+        /* #container p:last-child */
+        /* #container p:first-of-type */
+        /* #container p:last-of-type */
+        #container p:nth-of-type(2)
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1">
+            <h1>head1</h1>
+            <p>para1</p>
+            <p>para2</p>
+            <p>para3</p>
+            <h1>head2</h1>
+        </div>
+        <p>Hello I am para</p>
+        <div id="box2">
+            <p>para1</p>
+            <p>para2</p>
+            <p>para3</p>
+        </div>
+    </div>
+</body>
+</html>
